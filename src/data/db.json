@@ -1,0 +1,28 @@
+{
+  "recipes": [
+    {
+      "id": 0,
+      "category": "breakfast",
+      "title": "eggs",
+      "ingridients": ["eggs", "salt", "tomatoes"],
+      "time": 15,
+      "difficulty": 2
+    },
+    {
+      "id": 1,
+      "category": "breakfast",
+      "title": "porridge",
+      "ingridients": ["oats", "salt", "sugar"],
+      "time": 20,
+      "difficulty": 2
+    },
+    {
+      "id": 3,
+      "category": "dessert",
+      "title": "cake",
+      "ingridients": [],
+      "time": 40,
+      "difficulty": 4
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+.myHeader {
+	@apply py-6 mb-6 bg-blue-600;
+}
+
+.myHeaderTitle {
+	@apply text-xl font-semibold text-white;
+}
