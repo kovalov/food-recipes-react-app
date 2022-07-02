@@ -5,7 +5,7 @@ function RecipesItem() {
 
   console.log(title);
 
-  return <div>RecipesItem</div>;
+  return <div>RecipesItem, {title}</div>;
 }
 
 export default RecipesItem;
