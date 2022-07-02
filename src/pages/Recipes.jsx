@@ -40,7 +40,7 @@ function Recipes() {
           ))}
       </MyContainer>
       <Switch>
-        <Route path={`${match.path}/:title`}>
+        <Route exact path={`${match.path}/:title`}>
           <RecipesItem />
         </Route>
       </Switch>
