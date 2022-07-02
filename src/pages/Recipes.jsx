@@ -1,15 +1,6 @@
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  useParams,
-  useRouteMatch
-} from 'react-router-dom';
+import { Link, useParams, useRouteMatch } from 'react-router-dom';
 
 import { useState, useEffect } from 'react';
-
-import RecipesItem from './RecipesItem';
 
 import MyContainer from '../components/MyContainer';
 import MyCard from '../components/MyCard';
@@ -39,11 +30,6 @@ function Recipes() {
             </Link>
           ))}
       </MyContainer>
-      <Switch>
-        <Route path={`${match.path}/:title`}>
-          <RecipesItem />
-        </Route>
-      </Switch>
     </div>
   );
 }
