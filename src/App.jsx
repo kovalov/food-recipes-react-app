@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import MyHeader from './components/MyHeader';
 import Home from './pages/Home';
 import Recipes from './pages/Recipes';
+import RecipesItem from './pages/RecipesItem';
 
 const categoryImages = [
   { title: 'breakfast', src: 'src/images/breakfast-640.jpg' },
@@ -40,6 +41,9 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Home categories={categories} />
+        </Route>
+        <Route path={`/:category/:title`}>
+          <RecipesItem />
         </Route>
         <Route exact path="/:category">
           <Recipes />
